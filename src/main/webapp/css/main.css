@@ -1,0 +1,224 @@
+body {
+    background: url('../images/bg.jpg') 0 0 fixed no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    background-color: rgba(233, 236, 239, 0.7);
+}
+
+.d-scheme {
+    position: relative;
+    margin: 50px 0 0 0;
+    height: 600px;
+    width: 920px;
+}
+
+.d-scheme > a {
+    color: #000000;
+    text-decoration: none;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #000000;
+    box-shadow: rgba(255, 255, 255, 1) 0 0 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 0;
+    line-height: 16px;
+    background-color: rgba(0, 255, 255, 1);
+    z-index: 2;
+    transition: all 0.3s;
+    font-weight: 500;
+    font-size: 0;
+    pointer-events: none;
+}
+
+    .d-scheme > a:hover {
+        cursor: pointer;
+        border-color: #ff0000;
+    }
+
+        .d-scheme > a.passed {
+            cursor: default;
+            border-style: dashed;
+            color: #000000;
+            pointer-events: none;
+            border-color: #ff0000;
+            font-size: 14px;
+        }
+
+        .d-scheme > a.active {
+            cursor: default;
+            border-color: #ff0000;
+            color: #000000;
+            font-size: 14px;
+        }
+
+        .d-scheme > a.enabled {
+            pointer-events: all;
+            font-size: 14px;
+        }
+
+        .d-scheme > a.active.WIN {
+            background: #00ff00 !important;
+        }
+
+        .d-scheme > a.active.FAIL {
+            background: #ff0000 !important;
+        }
+
+.d-scheme .d-1 {
+    top: 0;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.d-scheme .d-2 {
+    top: 50px;
+    left: 0;
+}
+
+.d-scheme .d-3 {
+    top: 50px;
+    right: 0;
+}
+
+.d-scheme .d-4 {
+    top: 150px;
+    left: 0;
+}
+
+.d-scheme .d-5 {
+    top: 150px;
+    right: 0;
+}
+
+.d-scheme .d-6 {
+    top: 250px;
+    left: 0;
+}
+
+.d-scheme .d-7 {
+    top: 250px;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.d-scheme .d-8 {
+    top: 350px;
+    left: 0;
+}
+
+.d-scheme .d-9 {
+    top: 350px;
+    left: 50%;
+    margin-left: 38px;
+}
+
+.d-scheme .d-10 {
+    top: 450px;
+    left: 0;
+}
+
+.d-scheme .d-11 {
+    top: 450px;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.d-scheme .d-12 {
+    top: 550px;
+    left: 0;
+}
+
+.d-scheme .d-13 {
+    top: 550px;
+    left: 50%;
+    margin-left: 38px;
+}
+
+.d-scheme > span {
+    display: block;
+    border: 0 solid #ffffff;
+    position: absolute;
+    z-index: 1;
+}
+
+.d-scheme .s-1 {
+    height: 550px;
+    width: 210px;
+    top: 22px;
+    left: 125px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+}
+
+.d-scheme .s-2 {
+    height: 130px;
+    width: 210px;
+    top: 22px;
+    right: 125px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-top-right-radius: 10px;
+}
+
+.d-scheme .s-3 {
+    height: 80px;
+    width: 210px;
+    top: 174px;
+    left: 250px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-top-right-radius: 10px;
+}
+
+.d-scheme .s-4 {
+    height: 80px;
+    width: 40px;
+    top: 274px;
+    left: 580px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-top-right-radius: 10px;
+}
+
+.d-scheme .s-5 {
+    height: 80px;
+    width: 210px;
+    top: 374px;
+    left: 249px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-top-right-radius: 10px;
+}
+
+.d-scheme .s-6 {
+    height: 80px;
+    width: 40px;
+    top: 474px;
+    left: 580px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-top-right-radius: 10px;
+}
+
+.a-restart {
+    margin-top: 50px;
+}
+
+.d-info {
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+    .d-info h1 {
+        font-size: 28px;
+    }
